@@ -6,7 +6,7 @@
      
     - name: Gather facts about all Enclosures
       hpe.oneview.oneview_enclosure_facts:
-        hostname: "{{ oneview_hostname }}"
+        hostname: "{{ 10.57.2.252 }}"
         username: "{{ oneview_username }}"
         password: "{{ oneview_password }}"
         auth_login_domain: "{{ oneview_domain }}"
